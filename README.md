@@ -1,6 +1,7 @@
 # Mixed Messages 
 
 A message generator program. Every time a user runs a program, they should get a new, randomized output. The message that it outputs should be made up of **at least three** different pieces of data.
+In this case, the program will use a list of **"Cities in America"** as sample data
 
 ## Project Objectives
 
