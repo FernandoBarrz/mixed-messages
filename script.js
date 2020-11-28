@@ -15,6 +15,22 @@ const citiesData = [
 
 
 const generateCityData = (citiesData) => {
+    function randomEntries(){
+        let randomNumbers = [];
+        let ranNum = 0
+        for(let i = 0; i < citiesData.length; i++ ){
+            ranNum = Math.floor(Math.random() * citiesData.length)
+            randomNumbers.push(ranNum)
+            
+        }
+        console.log(randomNumbers);
+        
+        const messageData = citiesData[randomNumbers[3]]
+        return messageData
+        
 
-    return `The City `
+        
+    }
+    return `The City is ${randomEntries()}`
 }
+console.log( generateCityData(citiesData));
